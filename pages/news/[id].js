@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux"
 import { DetailNews, Loader } from "../../components"
 
-import { setDetailedNews, setIsLoading } from "../../Store/Slices/NewsSlice";
+import { setDetailedNews, setIsLoading } from "../../store/Slices/NewsSlice";
 
 const News = () => {
     const dispatch = useDispatch();
